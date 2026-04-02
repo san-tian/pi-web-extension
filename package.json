@@ -1,0 +1,25 @@
+{
+  "name": "pi-web-extension",
+  "version": "0.1.0",
+  "description": "A pi extension that lets an already-open TUI notice shared-session updates coming from the pidoxear/opencode web companion.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pidoxear",
+    "opencode-web"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/san-tian/pi-web-extension.git"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": ">=0.0.0"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
